@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react'
 // import axios from 'axios'
-// import Popup from './Component/Popup'
-import PopupCmd from './Component/PopupCmd';
+import Popup from './Component/Popup'
+// import PopupCmd from './Component/PopupCmd';
 import "./App.css"
 
 
@@ -53,8 +53,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Popup/> */}
-      <PopupCmd/>
+      <Popup/>
       
     </div>
   );
