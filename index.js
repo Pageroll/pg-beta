@@ -32,6 +32,7 @@ app.post('/form', async(req, res)=>{
         else{
             res.json("notexist")
         }
+        console.log(checkRoll)
     }
     catch(err){
         console.log(err)
