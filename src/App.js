@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 // import axios from 'axios'
 import Popup from './Component/Popup'
+import Navbar from './Component/Navbar.js'
 // import PopupCmd from './Component/PopupCmd';
 import "./App.css"
 
@@ -52,7 +53,7 @@ function App() {
 //   console.log(Name1)
   return (
     <div className="App">
-
+      <Navbar/>
       <Popup/>
       
     </div>

@@ -8,6 +8,8 @@ function Popup() {
   const[roll, setRoll] = useState('')
   const[Name1, setName1] = useState('')
 
+  const popupDisplay = document.querySelector('.popup')
+
   async function onSubmit(e){
     e.preventDefault()
 
@@ -16,7 +18,7 @@ function Popup() {
             roll, Name1
         }).then(res=>{
           if(res.data==="exist"){
-            alert("Valid User")
+            alert("User Valid")
           }
           else if(res.data === "notexist"){
             alert("You are not an authorised USER!")
